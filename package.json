@@ -1,0 +1,28 @@
+{
+  "name": "leave_manager",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/adityadhakad30601-hash/Leave_Manager#readme",
+  "bugs": {
+    "url": "https://github.com/adityadhakad30601-hash/Leave_Manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityadhakad30601-hash/Leave_Manager.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev" : "npx nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2",
+    "nodemon": "^3.1.14"
+  }
+}
